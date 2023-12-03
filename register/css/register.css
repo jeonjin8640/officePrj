@@ -1,0 +1,95 @@
+body{
+    background-color: #f0e9dd;
+}
+.wrap {
+    padding: 40px 35px;
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3e522e;
+    box-shadow: 0px 0px 5px 1px #808080;
+}
+.logo {
+    margin: 0 auto;
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+}
+.register {
+    width: 100%;
+    margin: 0 auto;
+}
+.register label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #f0e9dd;
+}
+.register li {
+    margin-bottom: 20px;
+}
+.user-email,
+.user-passwd,
+.user-re-passwd,
+.user-name {
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid #f0e9dd;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+.user-email:focus,
+.user-passwd:focus,
+.user-re-passwd:focus,
+.user-name:focus{
+    box-shadow: 0 0 2px 1px #f0e9dd;
+}
+.register li:nth-child(5) {
+    margin-bottom: 5px;
+}
+.gender-box {
+    margin-top: 5px;
+    display: flex;
+}
+.gender-box li {
+    margin-bottom: 0;
+}
+.gender-box li:first-child{
+    margin-right: 20px;
+}
+.gender-box label {
+    display: inline-block;
+}
+.select-box {
+    display: flex;
+    justify-content: space-between;
+}
+.select-box li {
+    width: 45%;
+}
+select {
+    padding: 10px 5px;
+    width: 100%;
+}
+.btn-wrap{
+    display: flex;
+    justify-content: end;
+}
+.btn {
+    padding: 10px 15px;
+    background-color: #f0e9dd;
+    color: #3e522e;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.page-move{
+    color: #fff;
+    font-weight: bold;
+}  
+

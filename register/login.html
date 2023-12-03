@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div class="login-wrap">
+        <h1 class="logo">
+            <a href="">
+                <img src="../images/logo투명.png" alt="로고이미지">
+            </a>
+        </h1>
+        <form action="" class="login" onsubmit="return checkfrm()">
+            <ul>
+                <li>
+                    <label for="">Email.</label>
+                    <input type="email" class="user-email">
+                </li>
+                <li>
+                    <label for="">Password.</label>
+                    <input type="password" class="user-passwd">
+                </li>
+                <li>
+                    <input type="submit" value="LOGIN" class="btn">
+                </li>
+            </ul>
+        </form>
+        <a href="./register.html" class="page-move">
+            Would you like register?
+        </a>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+</html>

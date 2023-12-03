@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+<body>
+    <div class="wrap">
+        <h1 class="logo">
+            <a href="">
+                <img src="../images/logo투명.png" alt="로고이미지">
+            </a>
+        </h1>
+        <form action="" class="register" onsubmit="return checkfrm()">
+            <ul>
+                <li>
+                    <label for="">Email</label>
+                    <input type="email" class="user-email">
+                </li>
+                <li>
+                    <label for="">Password</label>
+                    <input type="password" class="user-passwd">
+                </li>
+                <li>
+                    <label for="">Re-Password</label>
+                    <input type="password" class="user-re-passwd">
+                </li>
+                <li>
+                    <label for="">Name</label>
+                    <input type="text" class="user-name">
+                </li>
+                <li>
+                    <label for="">Gender</label>
+                    <ul class="gender-box">
+                        <li>
+                            <input type="radio" name="gender" class="user-gender">
+                            <label for="">MAN</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="gender" class="user-gender">
+                            <label for="">WOMAN</label>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="select-box">
+                        <li>
+                            <label for="">Dept.</label>
+                            <select name="" id="" class="dept">
+                                <option value="">Choose</option>
+                                <option value="">임원실</option>
+                                <option value="">비서실</option>
+                                <option value="">자재실</option>
+                                <option value="">영업부</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="">Position.</label>
+                            <select name="" id="" class="dept">
+                                <option value="">Choose</option>
+                                <option value="">대표</option>
+                                <option value="">이사</option>
+                                <option value="">부장</option>
+                                <option value="">팀장</option>
+                            </select>
+                        </li>
+                    </ul>
+                </li>
+                <li class="btn-wrap">
+                    <input type="submit" value="REGISTER" class="btn">
+                </li>
+            </ul>
+        </form>
+        <a href="./login.html" class="page-move">
+            Would you like to Login?
+        </a>
+    </div>
+    <script src="./js/register.js"></script>
+</body>
+</html>
